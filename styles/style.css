@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 500px;
+}
+
+.header-icons {
+  width: 90px;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-icons .icons {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.header-icons .user {
+  background: url("../images/user.png") no-repeat;
+  background-size: 20px;
+}
+
+.header-icons .home {
+  background: url("../images/home.png") no-repeat;
+  background-size: 20px;
+}
+
+.header-icons .search {
+  vertical-align: top;
+}
+
+h1 {
+  color: #42a5f5;
+  clear: both;
+  text-align: center;
+}
+
+.city-choice {
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.location {
+  position: absolute;
+  top: 28px;
+  left: 130px;
+}
+
+.city-type {
+  margin-left: 25px;
+}
+
+.city-type input {
+  border: 2px solid #42a5f5;
+  background: #d9edfd;
+}
+.city-type label {
+  font-size: 9px;
+  opacity: 0.5;
+
+  position: absolute;
+  left: 153px;
+  top: 10px;
+}
+
+#submit {
+  position: absolute;
+  right: 50px;
+  font-size: 14px;
+  color: gray;
+}
+
+.date-choice {
+  text-align: right;
+}
+
+.date-choice label {
+  text-transform: uppercase;
+  color: #006ec5;
+  background: #e5f0f9;
+  font-size: 12px;
+}
+
+.date-choice input {
+  width: 25px;
+}
+
+.current {
+  position: relative;
+  color: #48a8f5;
+}
+
+.current-city {
+  font-size: 50px;
+}
+
+.current-weekday {
+  position: absolute;
+  left: 103px;
+  top: 60px;
+}
+
+.current-temperature {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 75px;
+  left: 77px;
+}
+
+.paginator .prev {
+  display: block;
+  float: left;
+  margin-top: 45px;
+}
+
+.paginator .next {
+  float: right;
+  display: block;
+  margin-top: 45px;
+}
+
+.week-temperature {
+  margin-top: 100px;
+}
+
+.temperature-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.temperature {
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.5;
+  font-weight: 600;
+  font-size: 13px;
+  background: #f4f5f6;
+}
+
+.days {
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.5;
+  font-weight: 600;
+  font-size: 13px;
+  background: #f4f5f6;
+}
+
+.extra-features {
+  margin-top: 25px;
+  margin-left: 45px;
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.extra-features .precipitation {
+  margin-bottom: 0;
+  background: #f4f5f6;
+}
+
+.extra-features .wind {
+  background: #f4f5f6;
+}
