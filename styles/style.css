@@ -171,3 +171,10 @@ h1 {
 .extra-features .wind {
   background: #f4f5f6;
 }
+
+.github {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: red;
+}
