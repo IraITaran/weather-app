@@ -14,7 +14,7 @@ let days = [
 let day = days[now.getDay()];
 
 let date = document.querySelector(".current-weekday");
-date.innerHTML = `${day} ${hour}:${minutes}`;
+date.innerHTML = `${day} ${hour}:0${minutes}`;
 
 let cityForm = document.querySelector("#city-form");
 cityForm.addEventListener("submit", cityValue);

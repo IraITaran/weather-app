@@ -104,6 +104,11 @@ h1 {
   color: #48a8f5;
 }
 
+.current img {
+  width: 65px;
+  height: 65px;
+}
+
 .current-city {
   font-size: 50px;
 }
@@ -163,7 +168,7 @@ h1 {
 }
 
 .extra-features {
-  margin-top: 25px;
+  margin-top: 15px;
 
   opacity: 0.5;
   font-size: 16px;
