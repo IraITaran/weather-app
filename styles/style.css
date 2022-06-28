@@ -2,9 +2,15 @@ body {
   margin: 0;
 }
 
-.container {
-  margin: auto;
+.weather-app-wrapper {
+  margin: 30px auto;
   max-width: 500px;
+}
+
+.weather-app {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0 15px;
 }
 
 .header-icons {
@@ -73,6 +79,7 @@ h1 {
 #submit {
   position: absolute;
   right: 50px;
+  top: 25px;
   font-size: 14px;
   color: gray;
 }
@@ -111,8 +118,8 @@ h1 {
   font-size: 20px;
   font-weight: 700;
   position: absolute;
-  top: 75px;
-  left: 77px;
+  top: 78px;
+  left: 103px;
 }
 
 .paginator .prev {
@@ -156,7 +163,7 @@ h1 {
 
 .extra-features {
   margin-top: 25px;
-  margin-left: 45px;
+
   opacity: 0.5;
   font-size: 16px;
   font-weight: 700;
@@ -165,16 +172,23 @@ h1 {
 
 .extra-features .precipitation {
   margin-bottom: 0;
-  background: #f4f5f6;
 }
 
-.extra-features .wind {
-  background: #f4f5f6;
-}
-
-.github {
+.github-link,
+.github-link + span {
   display: block;
   text-align: center;
   text-decoration: none;
   color: #48a8f5;
+  font-size: 12px;
+}
+
+.github-link {
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+.github-link + span {
+  color: gray;
+  opacity: 0.5;
 }

@@ -23,79 +23,61 @@
   </head>
   <body>
     <div class="container">
-      <div class="header-icons">
-        <a class="user icons" href="#"></a>
-        <a class="home icons" href="#"></a>
-        <img
-          src="images/search.png"
-          class="search icons"
-          width="20"
-          height="20"
-        />
-      </div>
-      <h1>Weather forecast</h1>
-      <div class="city-choice">
-        <img
-          src="images/location.png"
-          class="location"
-          alt="location"
-          width="20"
-          height="20"
-        />
-        <form id="city-form">
-          <div class="city-type">
-            <label for="name-of-city">Type the city</label><br />
-            <input type="text" placeholder="Name of city" id="name-of-city" />
-            <input type="submit" id="submit" placeholder="Search" />
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="header-icons">
+            <a class="user icons" href="#"></a>
+            <a class="home icons" href="#"></a>
+            <img
+              src="images/search.png"
+              class="search icons"
+              width="20"
+              height="20"
+            />
           </div>
-        </form>
-      </div>
-      <div class="date-choice">
-        <label for="date">Choose the date</label>
-        <input type="date" id="date" />
-      </div>
-      <div class="current">
-        <p class="current-city">Kyiv</p>
-        <p class="current-weekday">Thurs</p>
-        <p class="current-temperature"></p>
-      </div>
-      <div class="week-temperature">
-        <div class="paginator">
-          <img class="prev" src="images/prev.png" width="16" height="16" />
-          <img class="next" src="images/next.png" width="16" height="16" />
+          <h1>Weather forecast</h1>
+          <div class="city-choice">
+            <img
+              src="images/location.png"
+              class="location"
+              alt="location"
+              width="20"
+              height="20"
+            />
+            <form id="city-form">
+              <div class="city-type">
+                <label for="name-of-city">Type the city</label><br />
+                <input
+                  type="text"
+                  placeholder="Name of city"
+                  id="name-of-city"
+                />
+                <input type="submit" id="submit" placeholder="Search" />
+              </div>
+            </form>
+          </div>
+          <div class="date-choice">
+            <label for="date">Choose the date</label>
+            <input type="date" id="date" />
+          </div>
+          <div class="current">
+            <p class="current-city">Kyiv</p>
+            <p class="current-weekday">Thurs</p>
+            <p class="current-temperature"></p>
+          </div>
+
+          <div class="extra-features">
+            <p class="precipitation">Precipitation:50%</p>
+            <p class="wind">Wind:5km/h</p>
+          </div>
         </div>
-        <div class="temperature-icons">
-          <span>⛅ </span>
-          <span>🌧 </span>
-          <span>☂ </span>
-          <span>⛅ </span>
-          <span>⛅ </span>
-          <span>⛅ </span>
-        </div>
-        <div class="temperature">
-          <span>+18&degC</span>
-          <span>+16&degC</span>
-          <span>+18&degC</span>
-          <span>+19&degC</span>
-          <span>+18&degC</span>
-          <span>+18&degC</span>
-        </div>
-        <div class="days">
-          <span>Mon</span>
-          <span>Tue</span>
-          <span>Wed</span>
-          <span>Thurs</span>
-          <span>Fri</span>
-          <span>Sat</span>
-        </div>
+        <a
+          class="github-link"
+          href="https://github.com/IraITaran/weather-app"
+          target="_blank"
+          >Open-source code</a
+        ><span>by Iryna Taran</span>
       </div>
-      <div class="extra-features">
-        <p class="precipitation">Precipitation:50%</p>
-        <p class="wind">Wind:5km/h</p>
-      </div>
-      <a class="github" href="https://github.com/IraITaran/weather-app"
-        >My GitHub</a
-      >
     </div>
     <script src="styles/index.js"></script>
   </body>
