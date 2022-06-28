@@ -128,6 +128,19 @@ h1 {
   left: 103px;
 }
 
+.current .units {
+  position: absolute;
+  top: 81px;
+  left: 145px;
+  color: #48a8f5;
+}
+
+.current .units a {
+  color: black;
+  opacity: 0.3;
+  font-size: 14px;
+}
+
 .paginator .prev {
   display: block;
   float: left;
