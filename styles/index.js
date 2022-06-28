@@ -9,7 +9,7 @@ let days = [
   "Thursday",
   "Friday",
   "Saturday",
-  "Sunday"
+  "Sunday",
 ];
 let day = days[now.getDay()];
 
@@ -21,7 +21,7 @@ cityForm.addEventListener("submit", cityValue);
 
 function showWeather(response) {
   let temperature = Math.round(response.data.main.temp);
-  let currentTemperature = document.querySelector(".current-temperature");
+  let currentTemperature = document.querySelector("#current-temperature");
   currentTemperature.innerHTML = `${temperature}°`;
 }
 

@@ -61,14 +61,19 @@
             <input type="date" id="date" />
           </div>
           <div class="current">
-            <p class="current-city">Kyiv</p>
-            <p class="current-weekday">Thurs</p>
-            <p class="current-temperature"></p>
+            <p class="current-city" id="current-city">Kyiv</p>
+            <p class="current-weekday" id="current-weekday"></p>
+            <p class="current-temperature" id="current-temperature"></p>
           </div>
 
           <div class="extra-features">
-            <p class="precipitation">Precipitation:50%</p>
-            <p class="wind">Wind:5km/h</p>
+            <p class="precipitation">
+              Precipitation:<span id="precipitation"></span>%
+            </p>
+            <p class="wind">Wind:<span id="wind"></span>km/h</p>
+            <p class="description">
+              Description:<span id="description"></span>
+            </p>
           </div>
         </div>
         <a
