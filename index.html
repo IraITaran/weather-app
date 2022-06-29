@@ -37,24 +37,30 @@
           </div>
           <h1>Weather forecast</h1>
           <div class="city-choice">
-            <img
-              src="images/location.png"
-              class="location"
-              alt="location"
-              width="20"
-              height="20"
-            />
-            <form id="city-form">
-              <div class="city-type">
-                <label for="name-of-city">Type the city</label><br />
-                <input
-                  type="text"
-                  placeholder="Name of city"
-                  id="name-of-city"
-                />
-                <input type="submit" id="submit" placeholder="Search" />
+            <div class="row justify-content-center">
+              <div class="col align-self-end p-0">
+                <div class="city-container d-flex justify-content-center">
+                  <img
+                    src="images/location.png"
+                    class="location"
+                    alt="location"
+                    width="20"
+                    height="20"
+                  />
+                  <form id="city-form" class="d-flex align-items-end">
+                    <div class="city-type">
+                      <label for="name-of-city">Type the city</label><br />
+                      <input
+                        type="text"
+                        placeholder="Name of city"
+                        id="name-of-city"
+                      />
+                    </div>
+                    <input type="submit" id="submit" placeholder="Search" />
+                  </form>
+                </div>
               </div>
-            </form>
+            </div>
           </div>
           <div class="date-choice">
             <label for="date">Choose the date</label>
