@@ -5,6 +5,7 @@ body {
 .weather-app-wrapper {
   margin: 30px auto;
   min-width: 500px;
+  max-width: 500px;
 }
 
 .weather-app {
