@@ -72,7 +72,7 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
-let celsiusTemperature = null;
+let celsiusTemperature;
 
 let form = document.querySelector("#city-form");
 form.addEventListener("submit", handleSubmit);

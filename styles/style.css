@@ -177,6 +177,20 @@ h1 {
   background: #f4f5f6;
 }
 
+.weather-forecast {
+  color: #48a8f5;
+  font-size: 13px;
+  text-align: center;
+}
+
+.forecast-temperatures {
+  font-size: 12px;
+}
+
+.forecast-temperature-min {
+  opacity: 0.6;
+}
+
 .extra-features {
   margin-top: 15px;
 
